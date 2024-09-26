@@ -35,7 +35,7 @@ export const sideBarLinks: TSidebarLink[] = [
     path: "/message",
   },
   {
-    title: "My Prrofile",
+    title: "My Profile",
     icon: <IconProfile />,
     path: "/my-profile",
   },
