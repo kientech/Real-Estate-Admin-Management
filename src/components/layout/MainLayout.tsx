@@ -13,7 +13,7 @@ const MainLayout = ({ children }: IMainLayoutProps) => {
       <Topbar />
       <div className="flex min-h-screen">
         <Sidebar />
-        <div className="p-6 w-[80%]">{children}</div>
+        <div className="p-6 w-[80%] bg-[#f4f4f4]">{children}</div>
       </div>
     </div>
   );

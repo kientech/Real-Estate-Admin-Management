@@ -12,10 +12,10 @@ const Sidebar = () => {
         <Link
           key={link.path}
           href={link.path}
-          className={`flex flex-col md:flex-row items-center justify-center md:justify-start gap-y-2 gap-x-4 px-6 py-4 rounded-xl my-2 hover:bg-blue-50 ${
+          className={`flex flex-col md:flex-row items-center justify-center md:justify-start gap-y-2 gap-x-4 px-6 py-4 rounded-xl my-2  ${
             pathname === link.path
-              ? "bg-[#475BE8] hover:bg-[#475BE8] text-[#fff]"
-              : "text-[#808191]"
+              ? "bg-[#475BE8]  text-[#fff]"
+              : "text-[#808191] hover:bg-blue-50"
           }`}
         >
           <span>{link.icon}</span>

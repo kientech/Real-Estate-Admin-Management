@@ -6,3 +6,7 @@ export { default as IconProperty } from "./IconProperty";
 export { default as IconProfile } from "./IconProfile";
 export { default as IconDashboard } from "./IconDashboard";
 export { default as IconReview } from "./IconReview";
+export { default as IconLocation } from "./IconLocation";
+export { default as IconBed } from "./IconBed";
+export { default as IconSquare } from "./IconSquare";
+export { default as IconThreeDotHorizontal } from "./IconThreeDotHorizontal";
