@@ -9,7 +9,7 @@ interface LinearProgressProps {
 
 const LinearProgress: React.FC<LinearProgressProps> = ({
   title,
-  width = 300,
+  width = 400,
   height = 10,
   targetProgress = 80,
 }) => {

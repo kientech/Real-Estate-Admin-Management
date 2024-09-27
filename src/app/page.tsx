@@ -49,7 +49,7 @@ export default function Home() {
         ))}
       </div>
       <div className="flex gap-4">
-        <div>
+        <div className="w-[60%]">
           <div className="bg-white p-4 rounded-xl mt-4">
             <div className="flex justify-between">
               <div>
@@ -120,7 +120,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="mt-4">
+        <div className="mt-4 w-[40%]">
           <div className="px-4 py-6 rounded-lg bg-white">
             <h1 className="font-semibold text-xl text-[#11142D] mb-4">
               Property Referrals
@@ -131,6 +131,46 @@ export default function Home() {
             <LinearProgress title="Media" targetProgress={60} />
             <LinearProgress title="Media" targetProgress={60} />
           </div>
+
+          <div className="px-4 py-6 rounded-lg bg-white mt-4">
+            <h1 className="font-semibold text-xl text-[#11142D] mb-4">
+              Latest Sales
+            </h1>
+            <div className="space-y-4">
+              {[1, 2, 3, 4].map((item) => (
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-x-2">
+                    <Image
+                      src={
+                        "https://cdn.dribbble.com/userupload/14071166/file/original-e67071527c58cdb0b3d7e9538f2d587d.png?resize=1504x1128"
+                      }
+                      alt="Userr"
+                      width={70}
+                      height={70}
+                      objectFit="cover"
+                      className="rounded-lg"
+                    ></Image>
+                    <div className="space-y-1">
+                      <h1 className="font-semibold text-md text-[#11142d]">
+                        Metro Jayakar Apartment
+                      </h1>
+                      <span className="font-base text-[#808191]">
+                        North Carolina, USA
+                      </span>
+                    </div>
+                  </div>
+                  <h1 className="font-base text-[#2F80ED] text-md">+ $50</h1>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h1>Property List</h1>
+          
         </div>
       </div>
     </MainLayout>

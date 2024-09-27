@@ -10,3 +10,6 @@ export { default as IconLocation } from "./IconLocation";
 export { default as IconBed } from "./IconBed";
 export { default as IconSquare } from "./IconSquare";
 export { default as IconThreeDotHorizontal } from "./IconThreeDotHorizontal";
+export { default as IconMail } from "./IconMail";
+export { default as IconLocationFill } from "./IconLocationFill";
+export { default as IconCall } from "./IconCall";
